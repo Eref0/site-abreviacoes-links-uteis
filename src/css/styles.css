@@ -1,24 +1,38 @@
-.link {
+.link-1 {
     font-size: 25px;
-    color: rgb(231, 231, 178);
+    background-color: rgb(247, 255, 228);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    text-align:center;
-    justify-content: center;
-    margin: 20px 280px 10px 280px;
 }
 
-.quadro-links {
-    background-color: rgb(60, 73, 30);
-    width: 300px;
-    padding: 200px 500px;
+.container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 20px;
-    margin: 20px 280px 10px 280px;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    background-color: rgb(60, 73, 30);
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 200px;
+    margin: 2px;
 }
 
-body{
-    background-color: rgb(60, 73, 30);
+.container-box {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+body {
+    background-color: rgb(247, 255, 228);
 }
