@@ -1,6 +1,9 @@
 .link-1 {
-    font-size: 25px;
-    border-radius: 20px;
+    font-size: 128%;
+    text-size-adjust: flex;
+    justify-content:center;
+    justify-items: center;
+    align-items: center;
     color: rgb(247, 255, 228);
     text-decoration: none;
 }
@@ -15,22 +18,21 @@
     row-gap: 20px;
     column-gap: 20px;
     background-color: rgb(60, 73, 30);
-    width: 200px;
-    padding: 20px 20px;
-    border-radius: 200px;
-    margin: 2px;
+    width: 20%;
+    padding: 1% 1%;
+    border-radius: 48%;
+    margin: 5%;
 }
 
 .container-box {
-    display: flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: 2%;
+    column-gap: 2%;
 }
 body {
     background-color: rgb(247, 255, 228);
