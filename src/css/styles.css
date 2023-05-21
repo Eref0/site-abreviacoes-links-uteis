@@ -1,4 +1,5 @@
 .link-1 {
+    display: flex;
     font-size: 128%;
     justify-content:center;
     justify-items: center;
@@ -10,14 +11,12 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap:center;
     align-content: center;
     row-gap: 20px;
     column-gap: 20px;
     background-color: rgb(60, 73, 30);
-    width: 20%;
     padding: 1% 1%;
     border-radius: 48%;
     margin: 5%;
@@ -28,11 +27,82 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
     align-content: center;
     row-gap: 2%;
     column-gap: 2%;
 }
 body {
     background-color: rgb(247, 255, 228);
+}
+
+@media screen and (max-width: 412px),(max-height:914),(max-width: 375px),(max-height:667px),(max-width: 414px),(max-height:896px),(max-width: 280px),(max-height:653px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap:inherit;
+        align-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+        background-color: rgb(60, 73, 30);
+        padding: 5% 5%;
+        border-radius: 48%;
+        margin: 5%;
+    }
+        .contaner-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: inherit;
+        align-content: center;
+        row-gap: 2%;
+        column-gap: 2%;
+        }
+        .lnk-1 {
+        display: flex;
+        font-size: 128%;
+        justify-content:center;
+        justify-items: center;
+        align-items: center;
+        color: rgb(247, 255, 228);
+        text-decoration: none;
+        }
+}
+@media screen and (max-width: 280px),(max-height:653px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex-wrap:inherit;
+        align-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+        background-color: rgb(60, 73, 30);
+        padding: 15% 12%;
+        border-radius: 48%;
+        margin: 5%;
+    }
+        .contaner-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: inherit;
+        align-content: center;
+        row-gap: 2%;
+        column-gap: 2%;
+        }
+        .lnk-1 {
+        display: flex;
+        font-size: 128%;
+        justify-content:center;
+        justify-items: center;
+        align-items: center;
+        color: rgb(247, 255, 228);
+        text-decoration: none;
+        }
 }
