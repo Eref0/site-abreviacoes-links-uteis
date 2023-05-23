@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+.home-icon {
+    color: aliceblue;
+    width: 2em;
+}
 .link-1 {
     display: flex;
     font-size: 128%;
