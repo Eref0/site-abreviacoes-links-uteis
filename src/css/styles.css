@@ -2,8 +2,9 @@
     box-sizing: border-box;
 }
 .home-icon {
-     width: 25px;
-     
+    display: flex;
+    height: 25px;
+    width: 25px;
 }
 .link-1 {
     display: flex;
