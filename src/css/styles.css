@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 .home-icon {
-    width: 2em;
+     width: 25px;
+     
 }
 .link-1 {
     display: flex;
@@ -90,6 +91,9 @@ body {
         }
 }
 @media screen and (max-width: 280px){
+    .home-icon {
+        max-width: 20px;
+    }
     .container {
         display: flex;
         flex-direction: column;
